@@ -1,4 +1,5 @@
 # Mouse Wheel Emulation via Keyboard  
+![](mouse.gif)
 
 This program emulates mouse wheel scrolling using keyboard keys. It's useful for users who don't have a physical scroll wheel or when the mouse wheel are broken.
 You can scroll up with `Windows + Q` and scroll down with `Windows + A` hotkeys.
