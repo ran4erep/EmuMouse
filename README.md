@@ -35,27 +35,27 @@ Requirements:
 - MinGW-w64 or other C++ compiler with Windows API support
 - Windows SDK
 
-# Compile resources
+### Compile resources
 windres resource.rc -O coff -o resource.res
 
-# Compile program
+### Compile program
 g++ -o EmuMouse.exe mouse.cpp resource.res -mwindows
 
-# Auto-start with Windows
+## Auto-start with Windows
 To make the program start automatically with Windows:
 
 - Press Win + R
 - Type `shell:startup`
 - Copy EmuMouse.exe in the opened folder
 
-# License
+## License
 [CC BY-NC 4.0](LICENSE)
 
 This software is licensed under Creative Commons Attribution-NonCommercial 4.0 International License. This means you can freely use and modify the code for non-commercial purposes, as long as you provide attribution to the original author.
 
 Commercial use is prohibited without explicit permission from the author.
 
-# Author
+## Author
 ran4erep
 
 Last updated: 2025-02-11
